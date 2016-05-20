@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:gravity="center">
+	<LinearLayout
+		android:id="@+id/alfahmi__margin"
+		android:layout_width="fill_parent"
+		android:layout_height="20dp" />
+	<RelativeLayout
+		android:layout_width="150dp"
+		android:layout_height="150dp"
+		android:layout_marginBottom="40dp">
+	<ImageView
+		android:id="@+id/alfahmi__aad_logo"
+		android:layout_width="150dp"
+		android:layout_height="150dp"
+		android:src="@drawable/alfahmi__aad"
+		android:background="@drawable/alfahmi__circle_white" />
+	
+	<CheckBox
+		android:id="@+id/alfahmi__aad_checkbox"
+		android:layout_width="150dp"
+		android:layout_height="150dp"
+		android:button="@android:color/transparent"/>
+	
+	
+	</RelativeLayout>
+	<LinearLayout
+		android:id="@+id/alfahmi__layour_login"
+		android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:gravity="center">
+		
+	<EditText
+		android:layout_marginLeft="40dp"
+		android:layout_marginRight="40dp"
+		android:id="@+id/username"
+		android:gravity="center"
+		android:singleLine="true"
+		android:lines="1"
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:textColor="@color/alfahmi__white"
+		android:textSize="17dp"
+		android:background="@drawable/alfahmi__textfield"
+		android:hint="Username"
+		android:ellipsize="end" >
+
+		<requestFocus />
+
+	</EditText>
+	
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:gravity="left"
+		android:background="@drawable/alfahmi__textfield"
+		android:layout_marginLeft="40dp"
+		android:layout_marginRight="40dp"
+		android:layout_marginBottom="20dp">
+		
+
+	<EditText
+		android:layout_marginLeft="55dp"
+		android:layout_marginRight="55dp"
+		android:id="@+id/kodeakses"
+		android:gravity="center"
+		android:singleLine="true"
+		android:lines="1"
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:textColor="@color/alfahmi__white"
+		android:textSize="17dp"
+		android:background="@android:color/transparent"
+		android:inputType="textPassword"
+		android:hint="Password"
+		android:ellipsize="end" >
+			
+			<requestFocus />
+		
+		</EditText>
+		<CheckBox
+			android:id="@+id/showhidepass"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:gravity="center_vertical"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="0dp"
+			android:button="@drawable/alfahmi__checkbox"/>
+		
+	</RelativeLayout>
+		<Button
+			android:id="@+id/login"
+			android:background="@drawable/alfahmi__button_login"
+			android:gravity="center"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:text="LOGIN"
+			android:textStyle="bold"
+			android:textColor="@color/alfahmi__textPrimary_color"
+			android:layout_marginLeft="40dp"
+			android:layout_marginRight="40dp"/>
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/alfahmi__layour_desc"
+		android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:gravity="center">
+		
+		<WebView
+			android:id="@+id/alfahmi__id_keterangan"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+		
+	</LinearLayout>
+</LinearLayout>
+		
+		
+
+

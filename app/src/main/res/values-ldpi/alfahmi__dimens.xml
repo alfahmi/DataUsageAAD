@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alfahmi__header_height">140dp</dimen>
+	<dimen name="alfahmi__title_text_size">60dp</dimen>
+	<dimen name="alfahmi__subtitle_text_size">18dp</dimen>
+	<dimen name="alfahmi__padding_top_circle">110dp</dimen>
+</resources>

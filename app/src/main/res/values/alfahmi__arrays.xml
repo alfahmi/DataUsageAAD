@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     ____   __   ________   __  _______   __
+    / _  | / /  / __/ _  | / /_/ /     | / /
+   / ___ |/ /__/ _// __  |/ __  / /\/| |/ /
+  /_/  |_/____/_/ /_/  |_/_/ /_/_/   |_/_/
+
+ -->
+
+<resources>
+	
+	
+	<string-array name="alf_main">
+		<item>Hidup</item>
+		<item>Mati</item>
+	</string-array>
+	<string-array name="alf_summary">
+		<item>hidup</item>
+		<item>mati</item>
+	</string-array>     
+</resources>

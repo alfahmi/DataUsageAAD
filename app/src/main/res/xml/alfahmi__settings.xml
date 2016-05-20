@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+	<ListPreference
+		android:title="Auto Download"
+		android:summary="Hidup/Mati"
+		android:key="autoDownload"
+		android:defaultValue="mati"
+		android:entries="@array/alf_main"
+		android:entryValues="@array/alf_summary"
+		android:layout="@layout/alfahmi__preference" />
+	
+	<ListPreference
+		android:title="Auto Check Kuota"
+		android:summary="Otomatis cek kuota"
+		android:key="autoCheck"
+		android:defaultValue="mati"
+		android:entries="@array/alf_main"
+		android:entryValues="@array/alf_summary" />
+	
+	<ListPreference
+		android:title="Auto Exit"
+		android:summary="Otomatis keluar"
+		android:key="autoExit"
+		android:defaultValue="mati"
+		android:entries="@array/alf_main"
+		android:entryValues="@array/alf_summary" />
+
+	
+</PreferenceScreen>
