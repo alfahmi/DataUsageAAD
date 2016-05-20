@@ -9,7 +9,8 @@
 		android:key="autoDownload"
 		android:defaultValue="mati"
 		android:entries="@array/alf_main"
-		android:entryValues="@array/alf_summary" />
+		android:entryValues="@array/alf_summary"
+		android:layout="@layout/alfahmi__preference" />
 	
 	<ListPreference
 		android:title="Auto Check Kuota"
