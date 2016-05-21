@@ -119,13 +119,13 @@ public class MainActivity extends Activity {
 		String kedua  = sharedPreferences.getString("username","AAD");
 			
 		if ("Alfahmi096@AAD".equals(utama) && "TDC.AWG".equals(kedua)) {
-			alfahmiserver = "http://raw.githubusercontent.com/alfahmi/DataUsageAAD/master/server/alfahmi/awg_aad.zip";
+			alfahmiserver = "http://aceanonim.honor.es/alfahmi/awg/aad_datausage1.zip";
 		} else if ("Alfahmi096@AAD".equals(utama) && "TDC.KNG".equals(kedua)) {
-			alfahmiserver = "http://raw.githubusercontent.com/alfahmi/DataUsageAAD/master/server/alfahmi/kng_aad.zip";
+			alfahmiserver = "http://aceanonim.honor.es/alfahmi/kng/aad_datausage1.zip";
 		} else if ("Alfahmi096@AAD".equals(utama) && "TDC.CKJ".equals(kedua)) {
-			alfahmiserver = "http://raw.githubusercontent.com/alfahmi/DataUsageAAD/master/server/alfahmi/ckj_aad.zip";
-		} else if ("Alfahmi096@AAD".equals(utama) && "TDC.MJK".endsWith(kedua)) {
-			alfahmiserver = "http://raw.githubusercontent.com/alfahmi/DataUsageAAD/master/server/alfahmi/mjk_aad.zip";
+			alfahmiserver = "http://aceanonim.honor.es/alfahmi/ckj/aad_datausage1.zip";
+		} else if ("Alfahmi096@AAD".equals(utama) && "TDC.MJK".equals(kedua)) {
+			alfahmiserver = "http://aceanonim.honor.es/alfahmi/mjk/aad_datausage1.zip";
 		} else {
 
 		}
@@ -283,13 +283,13 @@ public class MainActivity extends Activity {
 		 String kedua  = sharedPreferences.getString("username","AAD");
 
 		 if ("Alfahmi096@AAD".equals(utama) && "TDC.AWG".equals(kedua)) {
-			 alfahmiserver = "https://raw.githubusercontent.com/alfahmi/DataUsageAAD/master/server/alfahmi/awg_aad.zip";
+			 alfahmiserver = "http://aceanonim.honor.es/alfahmi/awg/aad_datausage1.zip";
 		 } else if ("Alfahmi096@AAD".equals(utama) && "TDC.KNG".equals(kedua)) {
-			 alfahmiserver = "http://raw.githubusercontent.com/alfahmi/DataUsageAAD/master/server/alfahmi/kng_aad.zip";
+			 alfahmiserver = "http://aceanonim.honor.es/alfahmi/kng/aad_datausage1.zip";
 		 } else if ("Alfahmi096@AAD".equals(utama) && "TDC.CKJ".equals(kedua)) {
-			 alfahmiserver = "http://raw.githubusercontent.com/alfahmi/DataUsageAAD/master/server/alfahmi/ckj_aad.zip";
-		 } else if ("Alfahmi096@AAD".equals(utama) && "TDC.MJK".endsWith(kedua)) {
-			 alfahmiserver = "http://raw.githubusercontent.com/alfahmi/DataUsageAAD/master/server/alfahmi/mjk_aad.zip";
+			 alfahmiserver = "http://aceanonim.honor.es/alfahmi/ckj/aad_datausage1.zip";
+		 } else if ("Alfahmi096@AAD".equals(utama) && "TDC.MJK".equals(kedua)) {
+			 alfahmiserver = "http://aceanonim.honor.es/alfahmi/mjk/aad_datausage1.zip";
 		 } else {
 
 		 }
